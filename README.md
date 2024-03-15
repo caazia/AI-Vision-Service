@@ -1,10 +1,10 @@
 # Desafio: Reconhecimento Facil e transformação de imagens em Dados no Azure ML
 
-Iniciaremos acessando o [portal do Azure](https://www.portal.azure.com).
+> Iniciaremos acessando o [portal do Azure](https://www.portal.azure.com).
 
 - Criaremos um Recurso (+Create a resource).
 
- Opção no Menu (Três traços Verticais) ao lado esquerdo que poderá não estar visível.
+- Opção no Menu (Três traços Verticais) ao lado esquerdo que poderá não estar visível.
 
 ![Menu](./Outputs/Microsoft-Menu.png)
 
@@ -77,18 +77,18 @@ Acesse o [Vision Studio](https://portal.vision.cognitive.azure.com/?azure-portal
 - Marque a caixa "Experimente".
 - Você pode Inserir uma foto, Tirar uma foto ou utilizar uma das fotos ao lado.
 
-* Teste
+### Teste
 
 Este serviço já vem com algumas amostras de imagens. Porém, submeti uma nova foto:
 
 ![Teste Face](./TerceiraEtapa/Face02.png)
 
 
-* Resultado
+### Resultado
 
 Como observado, a informação de detecção de dois rostos foi efetuada.
 
-## Reconhecimento Óptico de Caracteres
+### Reconhecimento Óptico de Caracteres
 
 Um serviço em que consiste extrair textos nos mais diversos contextos como em fotos, documentos, notas fiscais. Sendo um serviço interessante para utilização em projetos para scanear documentos no geral, otimizando espaço físico e gerando maior agilidade na localização destes arquivos.
 
@@ -100,7 +100,7 @@ Um serviço em que consiste extrair textos nos mais diversos contextos como em f
 - Marque a caixa "Experimente".
 - Você pode Inserir uma foto, Tirar uma foto ou utilizar uma das fotos ao lado.
 
-## Teste
+### Teste
 
 Para testar este serviço, submeti uma imagem que eu tinha como arquivo, contendo vários textos com fontes, cores, tamanhos e formatos diferente:
 
@@ -108,7 +108,7 @@ Para testar este serviço, submeti uma imagem que eu tinha como arquivo, contend
 ![Teste Texto](./TerceiraEtapa/OpticalCharacter02.jpeg)
 
 
-## Adicione Legendas às imagens
+### Adicione Legendas às imagens
 
 - Clicar na análise de imagem.
 - Clicar em adicione legendas às imagens.
@@ -117,13 +117,13 @@ Para testar este serviço, submeti uma imagem que eu tinha como arquivo, contend
 
 ![Adicione Legenda as imagens](./TerceiraEtapa/ImagemAnalysis01.png)
 
-# Teste
+### Teste
 
 Nesta foto, o serviço detecta a estátua de uma mulher segurando uma balnça no topo de um "prédio".
 
 ![Teste Descrição de Imagem](./TerceiraEtapa/ImagemAnalysis02.jpeg)
 
-# Considerações Finais
+## Considerações Finais
 
 A capacidade do Azure Vision Studio de adicionar legendas e extrair marcas de imagens amplia horizontes na análise de conteúdo visual, possibilitando melhorias significativas em acessibilidade, análise de marca e muito mais. Esses serviços oferecem uma variedade de formas inclusivas que podem ser integradas em projetos para facilitar a vida de todos, sempre respeitando as normas éticas no uso dos dados e da IA.
 
